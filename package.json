@@ -1,9 +1,12 @@
 {
+  "name":"GamerHome",
+  "homepage": "http://zyybxr.com/GamerHome/",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next dev"
+    "build": "next build && next export",
+    "start": "next dev",
+    "deploy": "gh-pages -d .next"
   },
   "dependencies": {
     "clsx": "^2.0.0",
